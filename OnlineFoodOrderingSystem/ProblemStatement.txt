@@ -1,0 +1,25 @@
+1.Online Food Ordering System
+
+Requirements:
+- Create an abstract class FoodItem:
+- Attributes: id, name, price
+- Abstract method: calculateDiscount()
+
+Create two subclasses:
+- VegItem
+- NonVegItem
+
+Implement:
+Different discount logic:
+- Veg → 10% discount
+- Non-Veg → 5% discount
+
+Create a class Order:
+Contains list of FoodItem
+
+Method:
+
+double calculateTotalBill()
+Demonstrate:
+Polymorphism (store both Veg & Non-Veg in same list)
+Encapsulation (private variables + getters/setters)
