@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-abstract class FoodItem {
+abstract class FoodItem 
+{
     private int id;
     private String name;
     private double price;
